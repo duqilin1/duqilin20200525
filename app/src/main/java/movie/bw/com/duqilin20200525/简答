@@ -1,0 +1,9 @@
+3、简述Fresco的原理，在Android Studio中新建一个txt写即可（20分）
+
+    Fresco是一个渐进式图片加载框架用的是三级缓存优先从bitmap里获取图片如果bitmap里没有图片那就从本地的磁盘里获取图片，最后视屏网络上获取图片，
+    Fresco框架里封装了动画，
+4、简述Picasso、Glide、Fresco的区别，在Android Studio中新建一个txt写即可。（20分）
+    Picasso框架是
+    Glide图片框架是我们之前学习的一个框架它比Picasso图片框架要节省内存
+    Fresco图片框架是我们现在学习的框架它比Glide框架好在它是渐进式分可以先加载一个模糊的图片然后再逐渐法人清晰，
+    并且他用的是三级缓存模式加载图片比较省流量，它还自带图片的动画效果
